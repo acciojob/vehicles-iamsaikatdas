@@ -14,10 +14,11 @@ public class Car extends Vehicle {
         //Hint: Car extends Vehicle
         super(name);
         this.wheels = wheels;
+        this.type = type;
         this.doors = doors;
         this.gears = gears;
         this.isManual = isManual;
-        this.type = type;
+        this.currentGear = 1;
         this.seats = seats;
     }
 
